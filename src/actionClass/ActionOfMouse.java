@@ -10,6 +10,7 @@ public class ActionOfMouse {
 		System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
+		System.out.println("Hii I modified pritam repo");
 
 		driver.get("https://vctcpune.com/selenium/practice.html");
 		Thread.sleep(1000);
