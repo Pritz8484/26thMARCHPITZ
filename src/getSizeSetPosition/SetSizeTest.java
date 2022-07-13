@@ -20,6 +20,8 @@ public class SetSizeTest {
 		
 		driver.manage().window().setSize(d);
 		
+		System.out.println("2 time modified");
+		
 
 	}
 

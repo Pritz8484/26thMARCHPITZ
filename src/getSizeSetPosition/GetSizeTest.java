@@ -12,8 +12,8 @@ public class GetSizeTest {
 
 		WebDriver driver = new ChromeDriver();
 
+		System.out.println("2 time modified");
 		
-
 		driver.get("https://vctcpune.com/");
 		Thread.sleep(1000);
 		System.out.println(driver.manage().window().getPosition());
